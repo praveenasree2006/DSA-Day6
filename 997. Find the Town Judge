@@ -14,7 +14,6 @@ class Solution {
             if (trusting[i] == 0 && trusted[i] == n - 1)
                 ans = i;
         }
-
         return ans;    
     }
 }
