@@ -3,7 +3,6 @@ class Solution {
         int count = kmp(new StringBuilder(s).reverse().toString(), s);
         return new StringBuilder(s.substring(count)).reverse().toString() + s;
     }
-
     private int kmp(String txt, String patt) {
         String newString = patt + '#' + txt;
         int[] pi = new int[newString.length()];
