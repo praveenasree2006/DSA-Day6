@@ -16,7 +16,6 @@ class Solution {
             for (char letter : letters.toCharArray()) {
                 backtrack(combination + letter, next_digits.substring(1), phone_map, output);
             }
-        }
-        
+        }     
     }
 }
