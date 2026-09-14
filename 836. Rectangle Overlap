@@ -9,4 +9,4 @@ class Solution {
                  rec1[0] >= rec2[2] ||  
                  rec1[1] >= rec2[3]); 
     }
-
+}
