@@ -1,6 +1,5 @@
 class Solution(object):
     def floodFill(self, image, sr, sc, color):
-     
         orig = image[sr][sc]
         if orig == color: return image
         m, n = len(image), len(image[0])
